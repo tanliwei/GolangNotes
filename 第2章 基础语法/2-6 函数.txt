@@ -1,0 +1,27 @@
+
+func div(a,b int) (int, int){
+func div(a,b int) (q , r int){...
+}
+
+q,r = div(3,4)
+
+panic 终断执行
+(int,error)
+
+return 0, fmt.Errorf("",op)
+
+函数一等公民
+
+func apply(op func(int,int) int, a,b int) int{
+p  := reflect.ValueOf(op).Pointer()
+opName := runtime.FuncForPC(p).Name()
+	return op(a,b)
+}
+
+//
+func sum( numbers ...int) int{
+}
+没有 函数从在
+ 
+
+ 

@@ -1,0 +1,17 @@
+国际化多语言
+
+“%X\n”,[]byte(s)
+每个中文字符占3字节
+
+for i, ch := range s{  // ch is a rune
+UTF8 -> Unicode -> rune
+utf8.RuneCountInString(s)
+
+ch, size := utf8.DecodeRune([]byte)
+
+for i, ch := range []rune(s) { // 每个字符转4个字节 另外开了一个字符数组
+
+strings.Split; strings.Replace; string.Fields
+Constains, Index
+TrimRight
+

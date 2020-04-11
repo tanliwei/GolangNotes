@@ -1,0 +1,13 @@
+m := map[string]string{
+"name":"ccmouse",
+"course":"golang",
+}
+
+map[K]V, map[K1]map[K2]V
+
+map 遍历的顺序 的无序性
+
+m["non_exists"]
+non_exists, ok = m["non_exists"]
+make(map[string]string)
+value, ok = ...   ; ok 可以重复使用 :=

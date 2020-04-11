@@ -1,0 +1,40 @@
+面向对象
+type TreeNode struct {
+	Left, Right * TreeNode
+	Value int
+}
+
+仅支持封装 不支持继承和多态
+面向接口编程  替代 继承
+没有继承 -》 没有class
+
+type treeNode truct{
+	left, right *treeNode
+}
+
+new(treeNode)
+root = treeNode{value:3}
+root.left = ... // root->left C++
+
+没有构造函数
+
+工厂函数 控制构造
+
+return &treeNode{Value: 3} //局部变量 分配上堆栈的哪块
+
+func (node treeNode) print(){ // 定义在结构体外面定义方法 接收者 (node treeNode) 代表 this 的含义
+
+node.print()
+
+func print(node treeNode){ // 定义在结构体外面定义方法 接收者 (node treeNode) 代表 this 的含义
+print(node)
+
+func (node *treeNode) print(){ // 定义在结构体外面定义方法 接收者 (node treeNode) 代表 this 的含义
+node.value = 10 //语法简化  编译器处理
+
+node.print() //语法简化 
+
+nil指针 也可以调用方法！
+
+
+

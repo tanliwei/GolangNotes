@@ -1,0 +1,6 @@
+Slice
+
+arr[2:6] -> [2, 6)
+Slice is a view of arr
+
+ 

@@ -1,0 +1,16 @@
+if v  > 100 {
+}
+
+if  initializtion; condition {
+
+}
+
+swith automatic break, unless use the fallthrough
+
+swith op {
+	case "+":
+}
+
+switch { //后面可以没有表达式
+case	grade > 60:
+}

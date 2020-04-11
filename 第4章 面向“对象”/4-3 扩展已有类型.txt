@@ -1,0 +1,7 @@
+组合
+type TreeNode {
+	node *Node;
+}
+
+别名
+type Queue []int

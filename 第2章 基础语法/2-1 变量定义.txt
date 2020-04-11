@@ -1,0 +1,20 @@
+zero value of initlzation value
+
+%q 
+
+定义变量了就必须用
+
+variable type deduction
+
+fmt.Printf
+
+a,b := 3, true  // only valid for inner of function
+
+var a,b = 3, true
+
+var(
+aa = 3 
+bb = true
+)  // inner of a package
+
+

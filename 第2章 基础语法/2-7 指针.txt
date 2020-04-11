@@ -1,0 +1,7 @@
+var pa *int = &a
+指针不能运算
+值传递一种方式
+指针传递 实现 引用传递
+
+var cache Cache   ----   func f(cache Cache)
+Cache{ pData }

@@ -1,0 +1,18 @@
+
+const filename string = "abc.txt"
+cons a, b = 3, 4
+c = int(math.Sqrt(a*a + b*b)
+
+常量不大写
+
+大写变量 代表 public
+
+const 数值被各种类型使用
+
+const 表示枚举
+const (
+cpp = 0
+_
+java = 1
+golang = iota
+)

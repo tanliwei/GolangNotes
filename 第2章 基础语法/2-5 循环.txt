@@ -1,0 +1,14 @@
+
+for i:=1 ; i< 100; i++{
+}
+
+strconv.Itoa
+
+file, err := os.Open
+#don't have while
+
+scanner := bufio.NewScanner(file)
+scanner.Scan()
+scanner.Text()
+
+ 

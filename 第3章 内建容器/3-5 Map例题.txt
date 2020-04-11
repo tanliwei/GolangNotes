@@ -1,0 +1,4 @@
+for i, ch := range s {  // ch int32
+for i, ch := range []byte(s) {  // ch int32
+
+中文例子
